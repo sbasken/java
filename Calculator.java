@@ -27,7 +27,9 @@ public class Calculator{
   }
 
   public static void main(String[] args) {
+    //create variable myCalculator and initiate it with Calculator() from the above class
     Calculator myCalculator = new Calculator();
+    // print outputs for each method
     System.out.println(myCalculator.add(5,7));
     System.out.println(myCalculator.subtract(45,11));
     System.out.println(myCalculator.multiply(5,7));
